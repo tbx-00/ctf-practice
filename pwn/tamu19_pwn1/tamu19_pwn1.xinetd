@@ -1,4 +1,4 @@
-service boi
+service tamu19_pwn1
 {
     disable = no
     socket_type = stream
@@ -6,11 +6,11 @@ service boi
     wait        = no
     user        = ctf
     type        = UNLISTED
-    port        = 1024
+    port        = 1025
     bind        = 0.0.0.0
     server      = /bin/sh 
     # replace helloworld to your program
-    server_args = -c /home/ctf/boi
+    server_args = -c /home/ctf/pwn1
     banner_fail = /etc/banner_fail
     # safety options
     per_source	= 10 # the maximum instances of this service per source IP address

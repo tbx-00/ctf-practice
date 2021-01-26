@@ -1,0 +1,11 @@
+version: "3"
+services:
+  csaw_boi:
+    image: "boi"
+    ports:
+    - "1024:1024"
+  tamu19_pwn1:
+    image: "tamu19_pwn1"
+    ports:
+    - "1025:1025"
+
